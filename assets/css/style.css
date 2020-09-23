@@ -239,6 +239,7 @@ font-size: 38px;
     text-align: left;
     margin: 30px 0 0 60px;
     color:white;
+    
 }
 
 .contact-info  h3 {
@@ -257,6 +258,7 @@ font-size: 38px;
 .contact-info a {
     color: #fce138
 }
+
 
 .page-title {
     color: #fce138;
@@ -277,3 +279,8 @@ font-size: 38px;
     margin-right: 50px;
 
 }
+/* .hero-cta h2 {
+    display: inline;
+    margin: auto;
+
+} */
