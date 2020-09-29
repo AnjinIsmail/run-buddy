@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+/* div {
+    --favoritae-color: blue;
+    color: var(--favoritae-color);
+    box-shadow: 5px 5px 10px var (var(--favoritae-color));
+} */
+div {
+    --size-small: 12px;
+    --size-bi: 50px;
+    font-size: var(--size-small);
+    margin: var(--size-big) var(--size-small);
+}
+
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
 
 body {
     color: #39a6b2; 
@@ -23,6 +40,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
+    z-index: 9999;
 }
 header h1 {
     font-weight: bold; 
@@ -146,6 +164,16 @@ footer a {
 }
 .hero-form button:hover{
     background-color: #39a6b2;
+}
+
+.checkbox-wrapper input + label::after, 
+.radio-wrapper input + label::after {
+  content: none;
+}
+
+.checkbox-wrapper input:checked + label::after, 
+.radio-wrapper input:checked + label::after {
+  content: "";
 }
 
 .checkbox-wrapper input, .radio-wrapper input {
@@ -588,7 +616,6 @@ footer a {
 }
 
 }
-
 
 
 @media screen and (max-width:575px) {
