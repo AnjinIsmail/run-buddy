@@ -1,16 +1,10 @@
 # Run Buddy, Inc
+ 
+ Run Buddy Inc. is a webpage that offers a service to match runners with personal trainers. 
+ The overall key is make the application, interactive and user frindely using HTML and CSS.
+ 
 
-## Purpose
-A website that offers fitness training services. 
 
-## Built With
-* HTML
-* CSS
+## Deployed Application 
 
-## Website
-https://lernantino.github.io/run-buddy/
-
-## Contribution
-Made with ❤️ by [your name]
-
-### ©️2019 Run Buddy, Inc 
+## screenshots 
